@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "task-reminder-app-2d1fa",
+          "appId": "1:14081653340:android:290e5241c3b84b41fbc499",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "task-reminder-app-2d1fa",
+          "configurations": {
+            "android": "1:14081653340:android:290e5241c3b84b41fbc499",
+            "ios": "1:14081653340:ios:32b01685dfcaf526fbc499",
+            "macos": "1:14081653340:ios:32b01685dfcaf526fbc499",
+            "web": "1:14081653340:web:0164dea996e7c72ffbc499",
+            "windows": "1:14081653340:web:06f79ef64455be89fbc499"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
