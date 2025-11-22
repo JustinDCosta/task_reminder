@@ -1,6 +1,6 @@
 # task_reminder
 
-A new Flutter project.
+Task Reminder APP!!!
 
 ## Getting Started
 
